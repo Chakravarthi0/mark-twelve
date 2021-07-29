@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>angles</title>
+</head>
+
+<body>
+
+    <a href="/index.html">
+        <button class="btn-primary back">Go Back</button>
+    </a>
+
+    <br>
+
+    <h2>Enter the angles in below input boxes and we will tell you if those angles make a Triangle</h2>
+
+    <form id="angleForm">
+        <input required type="number" min="1" max="180" id="angleOne">
+
+        <input required type="number" min="1" max="180" id="angleTwo">
+
+        <input required type="number" min="1" max="180" id="angleThree">
+
+        <br>
+
+        <button type="submit" class="btn-primary submit" id="check">Check</button>
+    </form>
+
+    <div id="result">
+        <div id="pass">
+            <h3>Yuhu! these angles can make a triangle</h3>
+        </div>
+
+        <div id="fail">
+            <h3>Oops! these angles cannot make a triangle</h3>
+        </div>
+    </div>
+
+    <ul class="footer-list">
+        <li class="list-item"><a target="_blank" href="mailto:chakravarthisaran7@gmail.com" class="footer-links">
+                <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://github.com/chakravarthi0">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://www.linkedin.com/in/saran-chakravarthi-b44438175">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://twitter.com/saranchakravar3">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://portfolio-saran.netlify.app/">
+                <i class="fas fa-briefcase"></i>
+            </a>
+        </li>
+
+    </ul>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

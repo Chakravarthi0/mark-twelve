@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+
+    <a href="/index.html">
+        <button class="btn-primary back">Go Back</button>
+    </a>
+
+    <br>
+
+    <form id="quizForm">
+
+        <div class="question">
+
+            <label for="q1"> This type of triangle has one 90 degree angle. </label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q1">Acute
+            </label>
+
+            <label>
+                <input required type="radio" name="q1">Obtuse
+            </label>
+
+            <label>
+                <input required type="radio" name="q1" id="ans1">Right
+            </label>
+        </div>
+
+        <div class="question">
+
+            <label for="q2"> A ________ triangle is one where all 3 angles measure less than 90 degrees. </label>
+
+            <br>
+            <label>
+                <input required type="radio" name="q2" id="ans2">Acute
+            </label>
+
+            <label>
+                <input required type="radio" name="q2">Obtuse
+            </label>
+
+            <label>
+                <input required type="radio" name="q2">Right
+            </label>
+        </div>
+
+        <div class="question">
+
+            <label for="q3"> A triangle where all sides are congruent is called </label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q3" id="ans3">Equilateral
+            </label>
+
+            <label>
+                <input required type="radio" name="q3">Isosceles
+            </label>
+
+            <label>
+                <input required type="radio" name="q3">Scalene
+            </label>
+        </div>
+
+        <div class="question">
+
+            <label for="q4"> An isosceles triangle has </label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q4">No congruent sides
+            </label>
+
+            <label>
+                <input required type="radio" name="q4" id="ans4">2 congruent sides
+            </label>
+
+            <label>
+                <input required type="radio" name="q4">3 congruent sides
+            </label>
+        </div>
+
+        <div class="question">
+
+            <label for="q5">All 3 interior angles of a triangle add up to</label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q5">90 degrees
+            </label>
+
+            <label>
+                <input required type="radio" name="q5" id="ans5">180 degrees
+            </label>
+
+            <label>
+                <input required type="radio" name="q5">360 degrees
+            </label>
+        </div>
+
+        <div class="question">
+
+            <label for="q6"> If a triangle has angles 135<sup>0</sup> , 15<sup>0</sup>, 30<sup>0</sup>. Is it an obtuse
+                triangle? </label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q6" id="ans6">Yes
+            </label>
+
+            <label>
+                <input required type="radio" name="q6">No
+            </label>
+
+        </div>
+
+
+        <div class="question">
+
+            <label for="q7"> If a triangle has angles 115<sup>0</sup>, 25<sup>0</sup>, 40<sup>0</sup>. Is it an acute
+                triangle? </label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q7">Yes
+            </label>
+
+            <label>
+                <input required type="radio" name="q7" id="ans7">No
+            </label>
+
+        </div>
+
+
+        <div class="question">
+
+            <label for="q8"> If a triangle has angles 90<sup>0</sup>, 60<sup>0</sup>, 30<sup>0</sup>. Is it a right
+                angle triangle?</label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q8" id="ans8">Yes
+            </label>
+
+            <label>
+                <input required type="radio" name="q8">No
+            </label>
+
+        </div>
+
+        <div class="question">
+
+            <label for="q9"> If a triangle has 2 sides with equal lengths and 600 angle between them. What is the type
+                of triangle?</label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q9">Equilateral
+            </label>
+
+            <label>
+                <input required type="radio" name="q9">Isosceles
+            </label>
+
+            <label>
+                <input required type="radio" name="q9" id="ans9">Both
+            </label>
+        </div>
+
+        <div class="question">
+
+            <label for="q10"> If a triangle has sides of 2cm, 3cm, 4cm, what is the type of triangle?</label>
+
+            <br>
+
+            <label>
+                <input required type="radio" name="q10">Scalene
+            </label>
+
+            <label>
+                <input required type="radio" name="q10">Isosceles
+            </label>
+
+            <label>
+                <input required type="radio" name="q10" id="ans10">Equilateral
+            </label>
+        </div>
+
+        <div id="finalDiv">
+            <button class="btn-primary submit" id="subBtn">Submit</button>
+        </div>
+
+    </form>
+
+    <ul class="footer-list">
+        <li class="list-item"><a target="_blank" href="mailto:chakravarthisaran7@gmail.com" class="footer-links">
+                <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://github.com/chakravarthi0">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://www.linkedin.com/in/saran-chakravarthi-b44438175">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://twitter.com/saranchakravar3">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://portfolio-saran.netlify.app/">
+                <i class="fas fa-briefcase"></i>
+            </a>
+        </li>
+
+    </ul>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

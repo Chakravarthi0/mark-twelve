@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #90ee90,
+    #d8dd79,
+    #ffcb89,
+    #ffc0ab,
+    #ffc0cb
+  );
+}
+
+.btn-primary {
+  color: black;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1.8rem;
+  border-radius: 2rem;
+  font-size: medium;
+}
+
+.submit {
+  background-color: lightgreen;
+}
+
+.back {
+  background-color: pink;
+}
+
+input {
+  padding: 10px;
+}
+
+ul {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* a{
+    color: white;
+    text-decoration: none;
+} */
+
+.footer-list {
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+.list-item {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+i {
+  color: black;
+}
+
+#pass,
+#fail,
+#errTwo,
+#formOne,
+#formTwo,
+#formThree {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  padding: 1rem;
+}

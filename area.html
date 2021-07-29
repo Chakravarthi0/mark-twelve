@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Area</title>
+</head>
+
+<body>
+
+    <a href="/index.html">
+        <button class="btn-primary back">Go Back</button>
+    </a>
+
+    <br>
+
+    <form>
+        <input required type="radio" id="optOne" name="inpType">
+
+        <label for="optOne">If you have base and height length</label>
+
+        <br>
+        <br>
+
+        <input required type="radio" id="optTwo" name="inpType">
+
+        <label for="optTwo"> If you have length of 3 sides</label>
+
+        <br>
+        <br>
+
+        <input required type="radio" id="optThree" name="inpType">
+
+        <label for="optThree">If you have length of 2 sides and included angle</label>
+    </form>
+
+
+    <div>
+
+        <form id="formOne">
+            <h4>Base</h4>
+            <input type="number" id="base">
+
+            <br>
+
+            <h4>Height</h4>
+            <input type="number" id="height">
+
+            <br>
+
+            <button class="btn-primary submit" id="calcOne">Calculate</button>
+
+            <h4>Area will be calculated here</h4>
+
+            <div id="oupOne">
+                <h4>Area = 1/2 * b * h</h4>
+            </div>
+        </form>
+
+
+        <form id="formTwo">
+            <h4>a</h4>
+            <input type="number" id="sideOne">
+
+            <h4>b</h4>
+            <input type="number" id="sideTwo">
+
+            <h4>c</h4>
+            <input type="number" id="sideThree">
+
+            <br>
+
+            <div id="errTwo">
+                Enter valid side lengths such that each side length should be less than sum of other two sides
+            </div>
+
+            <button class="btn-primary submit" id="calcThree">Calculate</button>
+
+            <div id="oupTwo">
+                <h4>Area= √s(s-a)(s-b)(s-c)</h4>
+            </div>
+        </form>
+
+
+        <form id="formThree">
+
+            <h4>b</h4>
+            <input type="number" id="angleOne">
+
+            <h4>c</h4>
+            <input type="number" id="angleTwo">
+
+            <h4>Angle a</h4>
+            <input type="number" id="angleThree">
+
+            <br>
+
+            <button class="btn-primary submit" id="calcTwo">Calculate</button>
+
+            <div id="oupThree">
+                <h4>Area= 1/2*b*c*sin(A)</h4>
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+    <ul class="footer-list">
+        <li class="list-item"><a target="_blank" href="mailto:chakravarthisaran7@gmail.com" class="footer-links">
+                <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://github.com/chakravarthi0">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://www.linkedin.com/in/saran-chakravarthi-b44438175">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://twitter.com/saranchakravar3">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://portfolio-saran.netlify.app/">
+                <i class="fas fa-briefcase"></i>
+            </a>
+        </li>
+
+    </ul>
+
+    <script src="area.js"></script>
+</body>
+
+</html>
